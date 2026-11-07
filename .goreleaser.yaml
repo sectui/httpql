@@ -1,0 +1,20 @@
+version: 2
+
+builds:
+  - skip: true
+
+checksum:
+  disable: true
+
+changelog:
+  use: github
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+      - "^ci:"
+
+release:
+  draft: false
+  prerelease: auto
