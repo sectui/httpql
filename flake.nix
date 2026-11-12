@@ -1,5 +1,5 @@
 {
-  description = "httpql: Caido's HTTPQL for sectui tools";
+  description = "httpql: Caido's HTTPQL for foam tools";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 

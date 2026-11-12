@@ -1,7 +1,7 @@
 # httpql
 
 Caido's [HTTPQL](https://docs.caido.io/reference/httpql.html) for Go, as the
-[sectui](https://github.com/sectui) tools use it to filter requests and
+[foam](https://github.com/anotherhadi/foam) tools use it to filter requests and
 responses:
 
 ```

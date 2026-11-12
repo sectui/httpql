@@ -28,6 +28,6 @@ jobs:
       - name: Publish the version on the Go proxy
         # outside the module: go refuses a version of the main module
         working-directory: ${{ runner.temp }}
-        run: go list -m "github.com/sectui/httpql@${GITHUB_REF_NAME}"
+        run: go list -m "github.com/anotherhadi/httpql@${GITHUB_REF_NAME}"
         env:
           GOPROXY: https://proxy.golang.org
